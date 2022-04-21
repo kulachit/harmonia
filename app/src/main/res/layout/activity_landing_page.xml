@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="55dp"
+            android:layout_height="6dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.75"
+            android:background="@drawable/completed_indicator"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="55dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.75"
+            android:background="@drawable/pending_indicator"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="55dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.75"
+            android:background="@drawable/pending_indicator"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/begin_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/meditating_landing" />
+
+    <Button
+        android:id="@+id/begin_button"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:letterSpacing="0.15"
+        android:onClick="beginClick"
+        android:stateListAnimator="@null"
+        android:text="BEGIN"
+        android:textSize="16sp"
+        app:backgroundTint="#7C8096"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="Hi there!"
+        android:textColor="#7C8096"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="Before we start, we have just a few questions"
+        android:textAlignment="center"
+        android:textColor="#BF7C8096"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

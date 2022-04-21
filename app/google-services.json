@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "559979544383",
+    "project_id": "harmonia-dc6a2",
+    "storage_bucket": "harmonia-dc6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559979544383:android:50916c5f3a80d994589d8a",
+        "android_client_info": {
+          "package_name": "com.example.harmonia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559979544383-6a74nod78t55c4emkmu0aufr7aeoj6h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harmonia",
+            "certificate_hash": "2c3593a6ff661d871e25f608190d7f4d4eb04511"
+          }
+        },
+        {
+          "client_id": "559979544383-90q7v930qcdb21hhd5on8kimnpnec1mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ETHtAvuoB2-A9VNR3wGi7btNvX8r6jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559979544383-90q7v930qcdb21hhd5on8kimnpnec1mf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
